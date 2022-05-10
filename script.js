@@ -15,6 +15,7 @@ function updateIframe() {
 
     const urlParams = new URLSearchParams(window.location.search);
     const myUrl = urlParams.get('url');
+    // Should look like this "https://michaeljpotter.com/?url=https://thesiteyouwant.com"
 
 
     iframe.src = myUrl
